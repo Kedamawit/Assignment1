@@ -4,7 +4,6 @@ public class CaesarCipher {
 
 	public static void main(String[] args) {
 
-		
 		PrintWriter error = new PrintWriter(System.err, true);
 
 		// This checks to make sure that there is a correct number of parameters
@@ -65,7 +64,7 @@ public class CaesarCipher {
 			}
 			pen.println();
 		}
-	}// encode
+	}
 
 //Function to decode     
 	public static void decode(String str) {
@@ -83,5 +82,5 @@ public class CaesarCipher {
 			}
 			pen.println();
 		}
-	}// decode
+	}
 }
